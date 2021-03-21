@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/juanlvs21/sanble-download/issues",
     "email": "me@juanlvs.ml"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "firebase-admin": "9.5.0",
+    "http-status": "1.5.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "8.2.0",
+    "@types/http-status": "1.1.2",
+    "@vercel/node": "1.9.1"
   }
 }
