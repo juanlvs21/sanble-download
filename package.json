@@ -1,0 +1,23 @@
+{
+  "name": "sanble-download",
+  "version": "0.0.1",
+  "description": "Function Download APK - Management and information of gastronomic fairs and entrepreneurship fairs in the state of Nueva Esparta - Venezuela [Degree work]",
+  "main": "main.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Juan Villarroel",
+    "email": "me@juanlvs.ml",
+    "url": "https://juanlvs.ml"
+  },
+  "scripts": {
+    "start": "vercel dev --listen 4000",
+    "deploy": "vercel deploy --prod"
+  },
+  "repository": {
+    "url": "https://github.com/juanlvs21/sanble-download"
+  },
+  "bugs": {
+    "url": "https://github.com/juanlvs21/sanble-download/issues",
+    "email": "me@juanlvs.ml"
+  }
+}
