@@ -4,6 +4,7 @@ import {
   FIREBASE_PROJECT_ID,
   FIREBASE_PRIVATE_KEY,
   FIREBASE_CLIENT_EMAIL,
+  FIREBASE_STORAGE_BUCKET,
 } from "./env";
 
 const serviceAccount: admin.ServiceAccount = {
@@ -14,6 +15,7 @@ const serviceAccount: admin.ServiceAccount = {
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
+  storageBucket: FIREBASE_STORAGE_BUCKET,
 });
 
 export const storage = admin.storage;
