@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { OK, NOT_FOUND, INTERNAL_SERVER_ERROR } from "http-status";
+import { INTERNAL_SERVER_ERROR } from "http-status";
 import path from "path";
 import dayjs from "dayjs";
 
