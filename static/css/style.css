@@ -29,34 +29,39 @@ body {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.btn-download {
-  /* text-decoration: none;
-  margin: 10px; */
+.btn-a {
   display: block;
   width: 220px;
-  height: 25px;
+  height: 20px;
   background: #232020;
   color: #fff;
   padding: 10px;
   text-align: center;
-  border-radius: 5px;
-  line-height: 25px;
   border-radius: 8px;
+  border: 3px solid #232020;
   font-weight: 800;
   text-decoration: none;
+  margin: 5px 10px;
   transform: translateY(0);
   transition: transform 100ms ease-in;
 }
 
-.btn-download:hover {
+.btn-a:hover {
   background: #ffcc80;
   color: #232020;
   -webkit-box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.51);
   box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.51);
   transform: translateY(-2px);
+  border-color: #ffcc80;
   transition: all 200ms ease-in;
+}
+
+.btn-a-ghost {
+  background: transparent;
+  color: #232020;
 }
 
 .preview {
